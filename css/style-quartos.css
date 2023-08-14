@@ -1,0 +1,32 @@
+/* QUARTOS */
+
+.img-capa {
+    background-image: url('../img/img-fundo.jpg');
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+}
+
+.container-fotos-quartos img {
+    width: calc((100% / 3) - 3px);
+    height: 200px; 
+}
+
+h2 {
+    margin-top: 100px;
+}
+
+.info-quarto h3 {
+    text-align: center;
+}
+
+.infos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.infos li {
+    width: 270px;
+    margin-left: 20px;
+}
