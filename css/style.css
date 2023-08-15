@@ -137,10 +137,12 @@ span {
     justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
+    margin: 0 auto;
+    max-width: 1024px;
 }
 
 .container-info {
-    width: 45%px;
+    width: 45%;
     margin: 0 10px;
     display: flex;
     justify-content: left;
